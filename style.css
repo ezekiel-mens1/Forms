@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url(Ubuntu-Bold.ttf);
+    src:url(Ubuntu-medium.ttf);
+    src:url(Ubuntu-regular.ttf)
+}
+
+* {
+    font-family:;
+}
+body {
+    display: flex;
+    background-color:  hsl(213, 83%, 80%);
+    margin-left: 200px;
+}
+/* .main {
+    background-color: hsl(213, 83%, 80%);
+    width: 100%;
+    padding: 0%;
+} */
+.content-right {
+    width: 170px;
+    padding: 30px;
+    margin: 2px;
+    
+    background: url("bg-sidebar-desktop.svg");
+    border-radius: 20px;
+    letter-spacing: 0px;
+    padding-top: 1px;
+    font-family: Ubuntu-regular;
+}
+.content-left {
+    padding-left: 20px;
+    color:  hsl(213, 96%, 18%);
+    margin-right: 100px;
+}
+.content-left input {
+    border-radius: 8px;
+    height: 30px;
+    width: 300px;;
+    cursor: pointer;
+    border-color: white;
+    
+}
+.button {
+    margin-top: 70px;
+    lighting-color: blue;
+    cursor: pointer;
+    margin-left: 250px;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border-color:  hsl(213, 96%, 18%);
+    background-color: hsl(213, 96%, 18%);
+    color: aliceblue;
+}
+.content {
+    display:flex;
+    justify-content: center;
+    width: 690px;
+    margin:  15%;
+    background-color: hsl(217, 10%, 97%); 
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    
+    
+}
+.letter {
+    letter-spacing: 0px;
+    font-family: Ubuntu-bold;
+    color: white;
+}
+
+.numbers {
+    /* display: flex; */
+    padding: 5px 10px;
+    background-color: aqua;
+    border: 1px solid rgb(176, 170, 170);
+    border-radius: 50%;
+    background-color: transparent;
+    width: 5%;
+    height: 5%;
+    align-items: center;
+    
+}
+.first {
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.st {
+   line-gap-override: 3px;
+}
