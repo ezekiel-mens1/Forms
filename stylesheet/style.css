@@ -1,8 +1,8 @@
 @font-face {
     font-family: Ubuntu-Bold;
-    src: url(Ubuntu-Bold.ttf);
-    src:url(Ubuntu-medium.ttf);
-    src:url(Ubuntu-regular.ttf)
+    src: url(../assets/fonts/Ubuntu-Bold.ttf);
+    src:url(../assets/fonts/Ubuntu-Medium.ttf);
+    src:url(../assets/fonts/Ubuntu-Regular.ttf);
 }
 
 * {
@@ -23,7 +23,7 @@ body {
     padding: 30px;
     margin: 2px;
     
-    background: url("bg-sidebar-desktop.svg");
+    background: url("../assets/images/bg-sidebar-desktop.svg");
     border-radius: 20px;
     letter-spacing: 0px;
     padding-top: 1px;
